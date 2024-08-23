@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "3.12.*"
 fastapi = {extras = ["stantard"], version = "^0.112.1"}
+numpy = "^2.1.0"
+mediapipe = "^0.10.14"
 
 
 [tool.poetry.group.dev.dependencies]
